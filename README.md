@@ -10,15 +10,15 @@ Okay, here's a threat hunt scenario focused on suspicious Chrome extensions, fol
 
 ## Steps the "Bad Actor" (or Malicious Extension) took to Create Logs and IoCs:
 
-1.  **User Deception:**  The user is tricked into installing a malicious Chrome extension, possibly through a phishing email, a malicious advertisement, or a compromised website.  The extension might be named something innocuous like "PDF Converter Pro" or "AdBlock Ultimate".
-2.  **Extension Installation:** The user clicks "Add to Chrome" and grants the requested permissions (which could be overly broad).
-3.  **Data Exfiltration:**  The extension begins silently collecting data, including:
+1.  The user is tricked into installing a malicious Chrome extension, possibly through a phishing email, a malicious advertisement, or a compromised website.  The extension is named "PDF Converter Pro"
+2.  The user clicks "Add to Chrome" and grants the requested permissions (which could be overly broad).
+3.  The extension begins silently collecting data, including:
     *   Browsing history
     *   Cookies
     *   Form data (including usernames and passwords)
     *   Active session tokens
-4.  **C2 Communication:** The extension establishes a connection to a command and control (C2) server, often using encrypted channels (HTTPS) and potentially mimicking legitimate traffic (e.g., to Google services, to evade basic network monitoring).  Data is exfiltrated to the C2 server.
-5.  **Persistence:** The extension remains installed, continuing to collect and exfiltrate data until it is removed.
+4.  The extension establishes a connection to a command and control (C2) server, often using encrypted channels (HTTPS) and potentially mimicking legitimate traffic (e.g., to Google services, to evade basic network monitoring).  Data is exfiltrated to the C2 server.
+5.  The extension remains installed, continuing to collect and exfiltrate data until it is removed.
 
 ---
 
