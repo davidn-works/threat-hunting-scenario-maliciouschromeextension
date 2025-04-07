@@ -1,5 +1,3 @@
-Okay, here's a threat hunt scenario focused on suspicious Chrome extensions, following the provided format.  This is a simplified but realistic scenario.
-
 # Threat Event (Malicious Chrome Extension Exfiltration)
 
 **Unauthorized or Malicious Chrome Extension Installation and Data Exfiltration**
