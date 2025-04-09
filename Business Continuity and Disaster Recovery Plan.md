@@ -4,9 +4,9 @@ This project details my contributions to enhancing the organization's Business C
 
 ## 1. Risk Assessment and Business Impact Analysis (BIA)
 
-**Threat Identification:** A proactive threat hunt was conducted, focusing on suspicious Chrome extension activity. This was prompted by recent cybersecurity reports of data-stealing extensions and anecdotal user reports of unusual browser behavior. The hunt utilized KQL queries within Microsoft Defender for Endpoint (see Threat Hunt section below).
+A proactive threat hunt was conducted, focusing on suspicious Chrome extension activity. This was prompted by recent cybersecurity reports of data-stealing extensions and anecdotal user reports of unusual browser behavior. The hunt utilized KQL queries within Microsoft Defender for Endpoint (see Threat Hunt section below).
 
-**Business Impact Analysis:** The following potential impacts of a successful malicious extension compromise were identified:
+The following potential impacts of a successful malicious extension compromise were identified:
 
 *   **Data Breach:**
     *   **Data Types:** Customer PII (names, addresses, contact information), employee credentials, financial transaction data, internal documents (potentially containing intellectual property).
